@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "mastermind",
             "server": "http://mastermind",
-            "serverInstance": "BC13",
+            "serverInstance": "BC130",
             "authentication": "Windows",
             "startupObjectId": 22,
             "startupObjectType": "Page",
