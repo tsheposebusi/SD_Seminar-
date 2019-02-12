@@ -1,13 +1,14 @@
-page 50124 "CSD Seminar Charges"
+page 50139 "CSD Posted Seminar Charges"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
-    //   Chapter 6 - Lab 1
+    //   Chapter 7 - Lab 3
     //     - Created new page
 
     AutoSplitKey = true;
     Caption = 'Seminar Charges';
+    Editable = false;
     PageType = List;
-    SourceTable = "CSD Seminar Charge";
+    SourceTable = "CSD Posted Seminar Charge";
 
     layout
     {
@@ -46,6 +47,8 @@ page 50124 "CSD Seminar Charges"
         }
     }
 
-
+    actions
+    {
+    }
 }
 

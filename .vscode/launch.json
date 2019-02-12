@@ -8,9 +8,9 @@
             "server": "http://mastermind",
             "serverInstance": "BC130",
             "authentication": "Windows",
-            "startupObjectId": 22,
             "startupObjectType": "Page",
-            "breakOnError": true
+            "breakOnError": true,
+            "schemaUpdateMode": "Recreate",
         }
     ]
 }
