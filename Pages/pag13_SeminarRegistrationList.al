@@ -76,6 +76,16 @@ page 50113 "CSD Seminar Registration List"
                     RunObject = Page "CSD Seminar Charges";
                     RunPageLink = "Document No." = Field ("No.");
                 }
+                action("&Post")
+                {
+                    Caption = 'Post';
+                    Image = PostDocument;
+                    Promoted = true;
+                    PromotedIsBig = true;
+                    PromotedCategory = Process;
+                    ShortcutKey = F9;
+                    RunObject = codeunit "CSD Seminar-Post (Yes/No)";
+                }
             }
         }
     }
